@@ -1,20 +1,14 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+This project implements an 8-bit multiply-accumulate (MAC) unit. It takes
+two 4-bit operands as input, multiplies them, and accumulates the result
+in an internal register on each clock cycle.
 
 ## How to test
 
-Explain how to use your project
+Apply two 4-bit values via ui_in (bits 0-3 for operand A, bits 4-7 for
+operand B), clock the design, and observe the accumulated result on uo_out.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None
